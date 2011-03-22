@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 /**************************************************
- * 初期化処理にプログレスダイアログを表示するActivity
+ * ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿActivity
  * @author dotroid
  **************************************************/
 public class InitBehindProgressActivity extends Activity {
 	
-	// ProgressDialog定義
+	// ProgressDialogｿｿ
 	private ProgressDialog mProgressDialog;
 
 	@Override
@@ -20,8 +20,9 @@ public class InitBehindProgressActivity extends Activity {
 	}
 
 	/********************************************
-	 * プログレスダイアログの表示、及び初期化処理の実行
-	 * @param message プログレスダイアログに表示するメッセージ
+	 * ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿ
+	 * onCreateｿｿｿｿｿｿ 
+	 * @param message ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿ
 	 ********************************************/
 	protected void startInitProgress(String message){
 	
@@ -37,8 +38,8 @@ public class InitBehindProgressActivity extends Activity {
 	}
 
 	/********************************************
-	 * 初期化処理
-	 * Overrideして使用する
+	 * ｿｿｿｿｿ
+	 * Overrideｿｿｿｿｿｿ
 	 *******************************************/
 	protected void Init() throws Exception{
 		
@@ -48,7 +49,7 @@ public class InitBehindProgressActivity extends Activity {
 	}
 	
 	/********************************************
-	 * 初期化処理実行用Runnableオブジェクト
+	 * ｿｿｿｿｿｿRunnableｿｿｿｿｿｿ
 	 *******************************************/
 	private Runnable runnable = new Runnable(){
 		public void run() {
