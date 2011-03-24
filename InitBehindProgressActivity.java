@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 /**************************************************
- * ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿Activity
+ * ãƒ—ãƒ­ã‚°ãƒ¬ã‚¹ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã‚’è¡¨ç¤ºã—ã¦åˆæœŸåŒ–å‡¦ç†ã‚’è¡Œã†Activity
  * @author dotroid
  **************************************************/
 public class InitBehindProgressActivity extends Activity {
 	
-	// ProgressDialog¿¿
+	// ProgressDialogï½¿ï½¿
 	private ProgressDialog mProgressDialog;
 
 	@Override
@@ -20,9 +20,9 @@ public class InitBehindProgressActivity extends Activity {
 	}
 
 	/********************************************
-	 * ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
-	 * onCreate¿¿¿¿¿¿ 
-	 * @param message ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
+	 * ãƒ—ãƒ­ã‚°ãƒ¬ã‚¹ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã‚’è¡¨ç¤ºã—ã¦ã€åˆæœŸåŒ–å‡¦ç†ã‚’å®Ÿè¡Œã™ã‚‹
+	 * ç¶™æ‰¿å…ˆActivityã®onCreateã«ã¦å®Ÿè¡Œã™ã‚‹
+	 * @param message ãƒ—ãƒ­ã‚°ãƒ¬ã‚¹ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã«è¡¨ç¤ºã™ã‚‹ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸
 	 ********************************************/
 	protected void startInitProgress(String message){
 	
@@ -38,8 +38,8 @@ public class InitBehindProgressActivity extends Activity {
 	}
 
 	/********************************************
-	 * ¿¿¿¿¿
-	 * Override¿¿¿¿¿¿
+	 * åˆæœŸåŒ–å‡¦ç†
+	 * Overrideå…ˆã§å®Ÿè£…ã™ã‚‹
 	 *******************************************/
 	protected void Init() throws Exception{
 		
@@ -49,7 +49,7 @@ public class InitBehindProgressActivity extends Activity {
 	}
 	
 	/********************************************
-	 * ¿¿¿¿¿¿Runnable¿¿¿¿¿¿
+	 * éåŒæœŸå®Ÿè¡Œç”¨Runnableå‡¦ç†
 	 *******************************************/
 	private Runnable runnable = new Runnable(){
 		public void run() {
